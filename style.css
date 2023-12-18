@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  min-height: 100%;
+  color: white;
+  background-color: #b5e5e9;
+}
+
+/* my css styles */
+main {
+  min-height: 100%;
+}
+.container {
+  margin: 0 auto;
+  max-width: 80%;
+  min-height: 100%;
+  padding-top: 1%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  align-items: center;
+}
+
+.basketball_counter {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background: #1b244a;
+  min-width: 575px;
+  min-height: 385px;
+  border-radius: 25px;
+  /* align-items: center; */
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3 {
+  color: #eee;
+  text-align: center;
+  font-family: poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35.893px;
+  padding-top: 80px;
+  padding-bottom: 0.5rem;
+}
+
+h3 + div > p {
+  color: #f94f6d;
+  text-align: center;
+  font-family: Cursed Timer ULiL;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.666px;
+  padding: 20px;
+  background-color: #000;
+  margin-bottom: 0.5rem;
+  padding-block: 0;
+}
+
+.flex button {
+  border: 1px solid transparent;
+  border-color: #9aabd8;
+  cursor: pointer;
+}
+
+.flex button p {
+  color: #9aabd8;
+  background-color: #1b244a;
+  text-align: center;
+  font-family: Cursed Timer ULiL;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.812px;
+  padding: 5px;
+  padding-block: 1px;
+}
+
+button:active {
+  /* background-color: #3e8e41; */
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button.reset {
+  color: rgba(255, 255, 255, 0.781);
+  font-family: Cursed Timer ULiL;
+  font-weight: 700;
+  padding-block: 0.5rem;
+  background-color: #1b244a;
+  min-width: 100%;
+  text-align: center;
+  border: 1px solid #9aabd8;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* Alhamdulillah css finished */
