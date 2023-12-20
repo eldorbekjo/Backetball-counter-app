@@ -1,4 +1,4 @@
-// Home section
+// Home sectionz
 
 let count = 0;
 
